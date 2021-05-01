@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Method Aviation</title>
-
+    <link href="css/styles.css" rel="stylesheet" />
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/8.4.3/firebase-app.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -23,5 +23,66 @@
     -->
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
   </head>
-  <body></body>
+
+  <body>
+    <div class="nav">
+      <a href="#about">About Us</a>
+      <a href="#aircraft">Our Aircraft</a>
+    </div>
+
+    <div class="about" id="about"></div>
+
+    <div class="aircraft" id="aircraft">
+      <!-- Cherokee -->
+      <div class="aircraft-box">
+        <div class="information-box">
+          <div class="plane-type">
+            <a>1966 Piper Cherokee PA-28-140 - N6462R</a>
+          </div>
+          <div class="plane-info">
+            <div class="plane-features">
+              <a id="features-title">Features</a>
+              <ul>
+                <li>Lycoming 0-320 Series</li>
+                <li>160hp Conversion</li>
+              </ul>
+            </div>
+            <div class="plane-rates">
+              <a id="rates-title">Rates</a>
+            </div>
+          </div>
+        </div>
+        <img id="N6462R" />
+      </div>
+      <br />
+      <!-- Citation -->
+      <div class="aircraft-box">
+        <div class="information-box">
+          <div class="plane-type">
+            <a>1966 Piper Cherokee PA-28-140 - N6462R</a>
+          </div>
+          <div class="plane-info">
+            <div class="plane-features">
+              <a id="features-title">Features</a>
+              <ul>
+                <li>Lycoming 0-320 Series</li>
+                <li>160hp Conversion</li>
+              </ul>
+            </div>
+            <div class="plane-rates">
+              <a id="rates-title">Rates</a>
+            </div>
+          </div>
+        </div>
+        <img id="citation" />
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js"></script>
+
+    <script src="js/fbConfig.js"></script>
+    <script src="js/getN6462R.js"></script>
+    <script src="js/getCitation.js"></script>
+  </body>
 </html>
