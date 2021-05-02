@@ -80,6 +80,30 @@ body {
   padding-left: 15px;
 }
 
+.plane-rates {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plane-rates ul {
+  margin-top: 0px;
+  padding-left: 15px;
+}
+
+.plane-rewards {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plane-rewards ul {
+  margin-top: 0px;
+  padding-left: 15px;
+}
+
 #features-title {
   font-weight: bold;
   color: aqua;
@@ -87,6 +111,12 @@ body {
 }
 
 #rates-title {
+  font-weight: bold;
+  color: aqua;
+  padding-top: 10px;
+}
+
+#rewards-title {
   font-weight: bold;
   color: aqua;
   padding-top: 10px;
